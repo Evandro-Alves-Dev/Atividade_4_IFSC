@@ -2,14 +2,14 @@ package cadastros;
 
 public class Almoxarifado {
 
-	private int quantidadeMinima = 10;
+	private int quantidadeMinima = 20;
 	
 	public void estoque(Produtos produto) {
 		
 		System.out.println("----------SETOR ESTOQUE-----------");
 		
 		if (produto.getQuantidade() > getQuantidadeMinima() ) {
-			System.out.println("Nível de estoque normal.");
+			System.out.println("Nï¿½vel de estoque normal.");
 		}
 		else {
 			System.out.println("Item abaixo do estoque minimo.");

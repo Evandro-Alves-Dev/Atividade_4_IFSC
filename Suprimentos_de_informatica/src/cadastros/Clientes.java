@@ -2,6 +2,7 @@ package cadastros;
 
 import java.util.Scanner;
 
+@Data
 public class Clientes extends Pessoas {
 	private float renda;
 	private int idade;
@@ -16,7 +17,7 @@ public class Clientes extends Pessoas {
 		System.out.print("Qual o seu CPF? ");
 		this.setCPF(scan2.nextInt());
 		Scanner scan3 = new Scanner(System.in);
-		System.out.print("Qual seu endereço? ");
+		System.out.print("Qual seu endereï¿½o? ");
 		this.setEndereco(scan3.nextLine());
 		Scanner scan4 = new Scanner(System.in);
 		System.out.print("Qual sua renda? ");
@@ -30,10 +31,10 @@ public class Clientes extends Pessoas {
 	}
 
 	public void imprimir() {
-		System.out.println("----------RELATÓRIO DE CLIENTES-----------");
+		System.out.println("----------RELATï¿½RIO DE CLIENTES-----------");
 		System.out.println("Cliente " + getNome());
 		System.out.println("CPF cadastrado " + getCPF());
-		System.out.println("Endereço informado " + getEndereco());
+		System.out.println("Endereï¿½o informado " + getEndereco());
 		System.out.println("Renda mensal R$ " + getRenda());
 		System.out.println("Idade do cliente " + getIdade());
 		System.out.println("Contato " + getTelefone());

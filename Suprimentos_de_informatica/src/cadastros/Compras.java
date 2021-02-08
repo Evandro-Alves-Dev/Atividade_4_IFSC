@@ -2,7 +2,7 @@ package cadastros;
 
 public class Compras {
 	
-	private int comprarMinima = 15;
+	private int comprarMinima = 10;
 	
 	public void compras(Produtos produto, Almoxarifado estoque) {
 		
@@ -12,7 +12,7 @@ public class Compras {
 			System.out.println("Realizar compra de " + getComprarMinima() + " unidades.");
 		}
 		else {
-			System.out.println("Não é necessario realizar compra.");
+			System.out.println("Nï¿½o ï¿½ necessario realizar compra.");
 		}
 	}
 
