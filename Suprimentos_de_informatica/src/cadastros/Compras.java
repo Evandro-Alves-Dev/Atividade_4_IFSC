@@ -2,7 +2,7 @@ package cadastros;
 
 public class Compras {
 	
-	private int comprarMinima = 10;
+	private int comprarMinima = 5;
 	
 	public void compras(Produtos produto, Almoxarifado estoque) {
 		
